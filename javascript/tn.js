@@ -22,3 +22,12 @@ Featuring the legendary Air-Sole unit in the heel, the Nike TN provides responsi
 But the Nike TN is more than just a performance shoe; it's a cultural icon. With its distinctive silhouette and bold colorways, it has become a symbol of self-expression and individuality. From the streets to the runway, it's a statement piece that demands attention.
 
 So, lace up a pair of Nike TNs and step into the future of footwear. With its blend of style, comfort, and performance, it's the perfect companion for those who dare to stand out from the crowd.`;
+
+
+let stock = document.getElementById("stock");
+
+// DESTRUCTURING
+let stockquant = {
+  shoe: "TN red",
+  quantity: 15,
+};
