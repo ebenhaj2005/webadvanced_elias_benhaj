@@ -37,4 +37,15 @@ function stocklimit({ shoe, quantity }) {
     stock.innerText = `There are still ${quantity} of the ${shoe} left in stock... `;
   }
   stocklimit(stockquant);
+
+  // Iteration
+let iteration = ["38", "39", "40", "41", "42", "43", "44", "45", "46"];
+
+let iterationclass = document.getElementById("iteration");
+
+let output =
+  "Dit zijn de schoenmaten : " + [...iteration].map(Number).join(",");
+
+iterationclass.textContent = output;
+
   
