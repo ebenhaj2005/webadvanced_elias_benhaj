@@ -1,0 +1,28 @@
+{
+  "Categorie": [
+    {
+      "Name": "Red Shark",
+      "Color": "Orange"
+    },
+    {
+      "Name": "White tn",
+      "Color": "Blue"
+    },
+    {
+      "Name": "Green tn",
+      "Color": "Green"
+    },
+    {
+      "Name": "Pink tn",
+      "Color": "pink"
+    },
+    {
+      "Name": "Black tn",
+      "Color": "Black"
+    },
+    {
+      "Name": "Marseille tn",
+      "Color": "blue"
+    }
+  ]
+}

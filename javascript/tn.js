@@ -48,4 +48,17 @@ let output =
 
 iterationclass.textContent = output;
 
+
+let size38 = document.getElementById("size38");
+let sizename = size38.value;
+size38.addEventListener("click", function () {
+  alert("Size 38 has been added to your cart");
+});
+
+function displayCategorie(categorie) {
+    const li = document.createElement('li');
+    li.textContent = `Name: ${categorie.Name}"`;
+    shoe.appendChild(li);
+    }
+
   
