@@ -16,3 +16,80 @@ body{
   color: white;
     background-color: black;
 }
+
+.container{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+  margin-left: 40%;
+  margin-right: 40%;
+  letter-spacing: 2px;
+  padding-top:100px;
+  margin-top: 25px;
+  
+  }
+  #naam-login{
+  
+      padding-left: 120px;
+   
+  }
+  #email-login{
+  
+      padding-left: 0px;
+  }
+  #pass-login{
+      padding-bottom: 30px;
+      padding-left: 0px ;
+  }
+  #login-but{
+      border-radius: 15px;
+     margin-top: 30px ;
+     padding-right: 15px;
+     padding-left: 15px;
+     color: white;
+     background-color: black;
+  
+  
+  }
+  
+  
+  #login-but a {
+      
+      text-decoration: none;
+      color: black;
+  }
+  #title-login{
+      padding-left: 150px;
+  }
+  #logo-login {
+    margin: 150px;
+  
+  
+  
+  
+      
+  }
+  #color-login{
+      padding-top: 0px;
+      margin-top: 0px;
+      width: 150px;
+      padding-left: 0px;
+  }
+  #checkbox{
+      padding-top: 0px;
+      padding-bottom: 15px;
+      font-size: x-small;
+  }
+  
+  
+  #colorpicker{
+      margin-top: 15px;
+      width: 150px;
+      color: white;
+  }
+  .footer{
+      margin-top: 150px;
+      margin-bottom: 30px;
+      margin-left: 45%;
+      color: white;
+  }
