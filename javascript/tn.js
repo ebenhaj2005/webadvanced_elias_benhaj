@@ -31,3 +31,10 @@ let stockquant = {
   shoe: "TN red",
   quantity: 15,
 };
+
+// template literals x destructuring
+function stocklimit({ shoe, quantity }) {
+    stock.innerText = `There are still ${quantity} of the ${shoe} left in stock... `;
+  }
+  stocklimit(stockquant);
+  
