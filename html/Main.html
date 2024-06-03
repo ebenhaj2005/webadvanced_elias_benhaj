@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <script>
+  function displayCategorie(categorie) {
+    const li = document.createElement('li');
+    li.textContent = `${categorie.Name}`;
+    shoe.appendChild(li);
+    }</script>
+
+    <title>Home - Nike</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <a href="Main.html">
+            <img src="../images/Nike-Logo-PNG.png" alt=""
+          /></a>
+        </div>
+
+        <div class="links">
+          <a class="mensection" href="men.html">MEN</a>
+
+          <a class="womensection" href="men.html">WOMEN</a>
+
+          <a class="kidssection" href="men.html">KIDS</a>
+
+          <a href="cart.html">CART</a>
+          <a href="login.html" id="logout"
+            ><img src="../images/logout-icon-2048x2046-yqonjwjv.png" alt=""
+          /></a>
+        </div>
+
+        <div class="search"></div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="content">
+        <div class="main-content">
+          <h1>Nike</h1>
+
+          <h2>Air Max Plus</h2>
+
+          <h4>Make the ground shake</h4>
+
+          <p>
+            Durable reinforcements. Ultra-adhesive sole. Protected laces. The
+            new generation of Air Max is here. Let these beautiful shoes reflect
+            your identity reflect.
+          </p>
+
+          <div class="order">
+            <h3>$189,99</h3>
+
+            <button id="SHOP"><a href="tn.html">SHOP NOW</a></button>
+          </div>
+        </div>
+
+        <div class="image">
+          <img
+            src="../images/nike-air-max-plus-light-photography-graal-spotter-1_250x250@2x.webp"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <p id="pshoe">The different types of TN's:</p>
+    <ul>
+      <ul id="shoe">
+            <script>
+
+        displayCategorie({Name: "- Red Shark" });
+        displayCategorie({Name: "- tn white" });
+        displayCategorie({Name: "- tn marseille" });
+        displayCategorie({Name: "- tn green" });
+        displayCategorie({Name: "- tn black" });
+        displayCategorie({Name: "- tn pink" });
+        
+      </script> 
+  <br>
+  <br>  
+ <br>
+ <br>
+  </body>
+  <script src="../javascript/tn.js"></script>
+</html>
