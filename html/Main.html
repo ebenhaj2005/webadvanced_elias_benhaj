@@ -72,6 +72,11 @@
           />
         </div>
       </div>
+      <img id="image" src="#" alt="" width="200px">
+<br>
+<br>
+<br>
+
     </section>
     <p id="pshoe">The different types of TN's:</p>
     <ul>
@@ -92,4 +97,24 @@
  <br>
   </body>
   <script src="../javascript/tn.js"></script>
+  <script>
+ const imageUrl = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.logohistories.com%2Fp%2Fnike&psig=AOvVaw160QeJRdT8WX3ftZHGLfb4&ust=1717755890551000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIjPhMfhxoYDFQAAAAAdAAAAABAJ';
+  document.getElementById('image').src = imageUrl;
+
+  fetch(imageUrl)
+  .then(response => {
+    if(!response.ok) {
+      throw new Error('Afbeelding kan niet ingeladen worden');
+    }
+    return response.blob();
+  })
+  .catch(error => {
+    console.error('Fout bij het ophalen van de afbeelding:', error);
+  });
+
+
+
+
+
+  </script>
 </html>
