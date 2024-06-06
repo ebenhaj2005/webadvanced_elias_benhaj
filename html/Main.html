@@ -42,14 +42,15 @@
         <div class="search"></div>
       </div>
     </nav>
-
+    
     <section>
       <div class="content">
         <div class="main-content">
+          <p id="output">Deze website wordt ingeladen...</p>
           <h1>Nike</h1>
-
+          
           <h2>Air Max Plus</h2>
-
+          
           <h4>Make the ground shake</h4>
 
           <p>
@@ -73,6 +74,8 @@
         </div>
       </div>
       <img id="image" src="#" alt="" width="200px">
+      <br>
+      
 <br>
 <br>
 <br>
@@ -113,6 +116,22 @@
   });
 
 
+
+
+    function wait(ms) {
+      return new Promise(resolve => {
+        setTimeout(() => {
+          resolve(`Deze Promise is na ${ms} milliseconden opgelost.`);
+        }, ms);
+      });
+    }
+
+    console.log('Website wordt geladen...');
+    wait(2000).then(message => {
+      document.getElementById('output').innerText = "Welkom op de website van Nike!"; 
+    }).catch(error => {
+      console.error('Er is een fout opgetreden:', error);
+    });
 
 
 

@@ -234,3 +234,10 @@
   #pshoe{
     margin-left: 40%;
   }
+
+  #output{
+    margin-right:0;
+    margin-left: auto;
+    align-items: center;
+    margin-bottom: 150px;
+  }

@@ -20,9 +20,9 @@
 
 11. Callback function : login.js => Line 9 
 
-12. Promise :NOG TE DOEN
+12. Promise : Main.html => Line 121
 
-13. Consumer methods : NOG TE DOEN 
+13. Consumer methods : Main.html => Line 132
 
 14. Async & Await : NOG TE DOEN
 
