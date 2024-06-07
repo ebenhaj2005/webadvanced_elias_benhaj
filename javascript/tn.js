@@ -23,7 +23,6 @@ But the Nike TN is more than just a performance shoe; it's a cultural icon. With
 
 So, lace up a pair of Nike TNs and step into the future of footwear. With its blend of style, comfort, and performance, it's the perfect companion for those who dare to stand out from the crowd.`;
 
-
 let stock = document.getElementById("stock");
 
 // DESTRUCTURING
@@ -34,11 +33,11 @@ let stockquant = {
 
 // template literals x destructuring
 function stocklimit({ shoe, quantity }) {
-    stock.innerText = `There are still ${quantity} of the ${shoe} left in stock... `;
-  }
-  stocklimit(stockquant);
+  stock.innerText = `There are still ${quantity} of the ${shoe} left in stock... `;
+}
+stocklimit(stockquant);
 
-  // Iteration
+// Iteration
 let iteration = ["38", "39", "40", "41", "42", "43", "44", "45", "46"];
 
 let iterationclass = document.getElementById("iteration");
@@ -48,16 +47,15 @@ let output =
 
 iterationclass.textContent = output;
 
-
 let size38 = document.getElementById("size38");
 let sizename = size38.value;
-size38.addEventListener("click", function ()  {
+size38.addEventListener("click", function () {
   alert("Size 38 has been added to your cart");
 });
 
 function displayCategorie(categorie) {
-    const li = document.createElement('li');
-    li.textContent = `Name: ${categorie.Name}"`;
-    shoe.appendChild(li);
-    }
+  const li = document.createElement("li");
+  li.textContent = `Name: ${categorie.Name}"`;
+  shoe.appendChild(li);
+}
 
